@@ -1,3 +1,3 @@
-export {Sidebar} from './Sidebar'
-export * from './SidebarMenuItem'
-export * from './shopping-cart/counter/CartCounter'
+export {Sidebar} from './sidebar/Sidebar'
+export * from './sidebar/SidebarMenuItem'
+export * from './dashboard/SimpleWidget'

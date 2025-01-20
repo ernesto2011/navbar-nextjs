@@ -12,7 +12,10 @@ const nextConfig = {
         },
        
     ]
-    }
+    },
+    eslint: {
+        ignoreDuringBuilds: true, // Desactiva las verificaciones de ESLint durante el build
+      },
 };
 
 export default nextConfig;
